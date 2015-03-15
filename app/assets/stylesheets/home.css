@@ -1,0 +1,111 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+body{
+	font-weight: 100;
+	color: #000000;
+}
+
+#header{
+	background: transparent;
+	border: none;
+	position: absolute;
+	top: 30px;
+	color:#ffffff;
+}
+
+.navbar-header .navbar-brand{
+	font-size: 36px;
+	color: #ffffff;
+}
+
+#navbar a{
+	color: #ffffff;
+	font-size:18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.jumbotron{
+	height: 800px;
+	position: relative;
+	color:#ffffff;
+}
+
+.jumbotron #hero{
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+#action_wrapper{
+	margin-top: 200px;
+}
+
+#header_text{
+	font-size: 52px;	
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+
+#sub_header_text{
+	font-size: 18px;
+	font-weight: 100;	
+}
+
+#discover_cities h1{
+	font-weight: 100;
+}
+
+.helper_text{
+	font-size: 18px;
+	color:#d71a21;
+}
+
+#query-container{
+	margin-top: 20px;
+}
+
+#input_globe{
+	position: absolute;
+	top: 20px;
+	right:20px;
+	width: 41px;
+	height: 41px;
+}
+	
+#query-container input[type="text"]{
+	height:80px;	
+	background-color:#d71a21;
+	color: #ffffff;
+	opacity: 0.7;
+	border: none;
+	font-size: 24px;
+}
+
+#q::-webkit-input-placeholder {
+   color: white;
+   font-size: 24px;
+   text-align: center;
+}
+#q:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+   font-size: 24px;
+   text-align: center;
+}
+
+#q::-moz-placeholder {  /* Firefox 19+ */
+  color: white;  
+  font-size: 24px;
+  text-align: center;
+}
+#q:-ms-input-placeholder {  
+   color: white;  
+   font-size: 24px;
+   text-align: center;
+}
